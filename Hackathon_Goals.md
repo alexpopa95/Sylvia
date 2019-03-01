@@ -14,6 +14,6 @@ To achieve this goal we can suggest you some technologies, themes or approaches 
  * Engagement via Social Network
  * Engagement via Gamification
  * Improve existing features or build new ones
- * Build your own inspired E-Commerce starting from scratch
+ * Bring your own idea to improve the world of E-Commerce
  
-Feel free to interpret these points with your personal experience and start to follow these themes or another idea good enough to start building your project.
+Choose the theme that best fits with your interests and experience in order to build the smartest solution.
