@@ -1,10 +1,7 @@
 plugins {
     id 'java'
     id 'org.jetbrains.kotlin.jvm'
-    id 'maven'
 }
-
-group 'com.github.YTech'
 
 sourceCompatibility = 1.8
 
@@ -20,7 +17,7 @@ dependencies {
 
     implementation 'com.squareup.okhttp3:logging-interceptor:3.14.0'
 
-    api "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_runtime_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_runtime_version"
 
     testImplementation("io.ktor:ktor-client-mock:$ktor_version",
             "io.ktor:ktor-client-mock-jvm:$ktor_version",
