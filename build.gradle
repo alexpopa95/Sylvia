@@ -34,7 +34,6 @@ allprojects {
 subprojects {
     apply plugin: "org.jlleitschuh.gradle.ktlint"
     apply plugin: 'maven'
-    apply plugin: 'kotlinx-serialization'
 
     repositories {
         maven { url "https://kotlin.bintray.com/kotlinx" }
