@@ -40,5 +40,9 @@ subprojects {
         ignoreFailures = true
         reporters = [ReporterType.CHECKSTYLE]
     }
+
+    repositories {
+        maven { url "https://kotlin.bintray.com/kotlinx" }
+    }
 }
 
