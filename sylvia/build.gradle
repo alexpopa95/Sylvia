@@ -20,7 +20,7 @@ dependencies {
 
     implementation 'com.squareup.okhttp3:logging-interceptor:3.14.0'
 
-    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_runtime_version"
+    api "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_runtime_version"
 
     testImplementation("io.ktor:ktor-client-mock:$ktor_version",
             "io.ktor:ktor-client-mock-jvm:$ktor_version",
