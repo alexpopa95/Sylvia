@@ -1,2 +1,5 @@
-include ':sylvia', ':rx', ':androidcallback', 'samplekotlinapp', 'samplejavaapp', 'samplerxjavaapp'
+if (System.env.JITPACK)
+    include ':sylvia'
+else
+    include ':sylvia', ':rx', ':androidcallback', 'samplekotlinapp', 'samplejavaapp', 'samplerxjavaapp'
 
